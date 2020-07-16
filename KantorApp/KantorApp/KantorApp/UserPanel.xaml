@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KantorApp.UserPanel">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Witaj Imie Nazwisko" x:Name="UserName" FontAttributes="Bold" FontSize="26"
+            HorizontalTextAlignment="Center" RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToParent, Property=Y, Factor=0, Constant=140}" RelativeLayout.WidthConstraint="{ConstraintExpression Type=RelativeToParent, Property=Width, Factor=1}" />
+
+            <StackLayout x:Name="AccountInfo" BackgroundColor="Aqua"  Padding="20" >
+                <Label Text="Stan Twojego konta:" TextColor="Black" FontSize="18"  />
+            </StackLayout>
+            <ScrollView>
+                <StackLayout>
+                    <Button Text="Zasil swoje konto" x:Name="UpdateStan" Clicked="UpdateStan_Clicked" />
+                    <Button Text="Sprawdź kurs waluty" x:Name="CheckCurrency" Clicked="CheckCurrency_Clicked" />
+                    <Button Text="Archiwalne kursy walut" x:Name="CheckArchive" Clicked="CheckArchive_Clicked" />
+                    <Button Text="Kup walutę" x:Name="BuyCurrency" Clicked="BuyCurrency_Clicked" />
+                    <Button Text="Sprzedaj walutę" x:Name="SellCurrency" Clicked="SellCurrency_Clicked" />
+                    <Button Text="Historia transakcji" x:Name="TransactionsHistory" Clicked="TransactionsHistory_Clicked" />
+                    <Button Text="Historia przelewów" x:Name="TransferHistory" Clicked="TransferHistory_Clicked" />
+                    <Button Text="Wypłać środki" x:Name="WithdrawFunds" Clicked="WithdrawFunds_Clicked" />
+                    <Button Text="Usuń konto" x:Name="AccountDelete" Clicked="AccountDelete_Clicked" />
+                    <Button Text="Wyloguj się" x:Name="LogOutBtn" Clicked="LogOutBtn_Clicked" />
+                </StackLayout>
+            </ScrollView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

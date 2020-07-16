@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage Title="Rejestracja" 
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KantorApp.Registry">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" 
+                     HorizontalOptions="CenterAndExpand">
+            <Button Text="Wróć" x:Name="RegistryBack" Clicked="RegistryBack_Clicked" />
+            <Entry Keyboard="Text" Placeholder="Twoje imię" x:Name="UserName" />
+            <Entry Keyboard="Text" Placeholder="Twoje nazwisko" x:Name="UserSurname" />
+            <Entry Keyboard="Email" Placeholder="Twój adres email" x:Name="UserEmail" />
+            <Entry Keyboard="Text" IsPassword="True" Placeholder="Ustaw hasło" x:Name="UserPass" />
+            <Entry Keyboard="Text" IsPassword="True" Placeholder="Powtórz hasło" x:Name="PassCheck" />
+            <Switch IsToggled="False" Toggled="PrivacyPolicyAccept_Toggled" x:Name="PrivacyPolicyAccept" />
+            <Button Text="Zarejestruj" x:Name="RegistryContinue" Clicked="RegistryContinue_Clicked" />
+            <Label x:Name="CheckLabel" TextColor="Red" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

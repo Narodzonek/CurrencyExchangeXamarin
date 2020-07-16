@@ -1,0 +1,11 @@
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\bin\Debug\DatabaseKantor.dacpac
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\bin\Debug\DatabaseKantor.xml
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\bin\Debug\DatabaseKantor.dll
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\bin\Debug\DatabaseKantor.pdb
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\DatabaseKantor.sqlprojAssemblyReference.cache
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\Model.xml
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\refactor.xml
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\postdeploy.sql
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\predeploy.sql
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\DatabaseKantor.dll
+C:\Users\damia\Xamarin\KantorWCF\DatabaseKantor\obj\Debug\DatabaseKantor.pdb

@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0">
+  <Operation Name="Rename Refactor" Key="a5d320b8-4f07-4a08-8140-b4e0c4f3f222" ChangeDateTime="06/21/2020 22:17:18" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Id_user" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="e64fefea-d84f-4c0e-a32e-8aaf725725db" ChangeDateTime="06/22/2020 09:20:15" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Users].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_user" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="33ebf7fb-44da-4f41-92a5-0502b517e082" ChangeDateTime="06/22/2020 09:21:40" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Users].[Imie]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="imie" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="684cf524-6cf3-4977-acc1-3c225a794bf1" ChangeDateTime="06/22/2020 09:21:44" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Users].[Nazwisko]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Users]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="nazwisko" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="69474891-afb8-4227-9d2d-3b3753b3bff6" ChangeDateTime="06/22/2020 09:31:30" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Stankonta].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Stankonta]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_user" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="5b5e4524-e8b0-423c-aaf0-c148e17ab2fb" ChangeDateTime="06/22/2020 09:32:37" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Transakcje].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Transakcje]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_uzytkownika" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="a21e557d-144f-47cf-955b-8e96f063193d" ChangeDateTime="06/22/2020 09:35:56" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Historiaprzelewow].[Id]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Historiaprzelewow]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="id_uzytkownika" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7f5b0c8b-dba7-4cc1-b7fd-73279eaf460c" ChangeDateTime="06/22/2020 09:36:19" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+    <Property Name="ElementName" Value="[dbo].[Historiaprzelewow].[kwota]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Historiaprzelewow]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="waluta" />
+  </Operation>
+</Operations>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KantorApp.FoundAccount">
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Text="Wróć" x:Name="BackBtn" Clicked="BackBtn_Clicked" />
+            <Label Text="Wprowadź właściwe dane. Po zatwierdzeniu Twoje konto zostanie zasilone." TextColor="Black" FontSize="18" />
+            <Entry Keyboard="Numeric" Placeholder="Wprowadź kwotę" x:Name="AmountPln" />
+            <Label Text="Waluta w której zasilone zostanie konto:" TextColor="Red" FontSize="18" HorizontalTextAlignment="Center"/>
+            <Label Text="PLN" x:Name="CurrencyPLN" TextColor="Black" FontSize="24" HorizontalTextAlignment="Center" />
+            <Label Text="Potwierdź zasilenie konta wpisując ponieżej swój adres email" TextColor="Black" FontSize="18" Padding="20" />
+            
+            <Button Text="Zatwierdź" x:Name="AcceptFoundBtn" Clicked="AcceptFoundBtn_Clicked" />
+            <Label x:Name="CheckLabel" TextColor="Red" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,7 @@
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\bin\KantorWCF.dll.config
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\bin\KantorWCF.dll
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\bin\KantorWCF.pdb
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\obj\Debug\KantorWCF.csprojAssemblyReference.cache
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\obj\Debug\KantorWCF.csproj.CoreCompileInputs.cache
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\obj\Debug\KantorWCF.dll
+C:\Users\damia\Xamarin\KantorWCF\KantorWCF\obj\Debug\KantorWCF.pdb

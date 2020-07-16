@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KantorApp.MainPage">
+
+    <StackLayout HorizontalOptions="Center" VerticalOptions="CenterAndExpand" >
+        <Image Source="https://cdn0.iconfinder.com/data/icons/constructivism-for-the-bank/64/constr_rate_exchange-512.png" />
+        <Label Text="Kantor App" FontSize="32" FontAttributes="Bold" TextColor="Black" HorizontalOptions="Center"/>
+        <Button Text="Rejestracja" x:Name="UserRegistryBtn" Clicked="UserRegistryBtn_Clicked" />
+        <Button Text="Zaloguj" x:Name="UserLoginBtn" Clicked="UserLoginBtn_Clicked" />
+        <Button Text="Polityka prywatności" x:Name="PrivacyPolicyBtn" Clicked="PrivacyPolicyBtn_Clicked" />
+    </StackLayout>
+
+</ContentPage>

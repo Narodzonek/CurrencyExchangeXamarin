@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="KantorApp.BuyCurrency">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="CenterAndExpand" Margin="20">
+            <Button Text="Wróć" x:Name="BackBtn" Clicked="BackBtn_Clicked" />
+            <Label Text="Kup walutę" FontSize="22" TextColor="Black" FontAttributes="Bold" />
+            <Label Text="Możesz wymienić określoną kwotę PLN na wybraną walutę" FontSize="18" />
+            <Entry Keyboard="Numeric" Placeholder="Wprowadź kwotę PLN" x:Name="PlnAmount" />
+            <Entry Keyboard="Text" Placeholder="Wprowadź symbol waluty" x:Name="CurrencySign" />
+            <Button Text="Zatwierdź" x:Name="AcceptTransaction" Clicked="AcceptTransaction_Clicked" />
+            <Label x:Name="CheckLabel" TextColor="Red" FontSize="18" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
